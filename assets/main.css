@@ -48,15 +48,17 @@
 .seccion {
   padding: 0px;
   margin-top: 75px;
-  border-top: solid 1px #000;
+  border-top: solid 1.5px #004870;
   padding-top: 15px;
 }
 .seccion .col-md-3 {
   padding-left: 7.5px;
   padding-right: 7.5px;
+  font-weight: bolder;
 }
 .seccion h3 {
   text-align: center;
+  color: #004870;
 }
 .seccion .item h3 {
   color: #fff;
@@ -271,4 +273,12 @@ ul.icons li:last-child {
 
 .icons li a span{
   color: black;
+}
+.button.big{
+  background: #004870;
+}
+
+
+.item.item2 h3{
+  color: #303030;
 }
